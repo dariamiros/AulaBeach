@@ -87,7 +87,7 @@ body {
     gap: 40px;
     width: 100%;
     min-height: 80vh;
-    background-image: url("/img/welcomebanner.jpg");
+    background-image: url("../img/welcomebanner.jpg");
     background-size: cover;
     background-position: center bottom;  
 }
