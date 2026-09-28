@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Beach| Prenota il tuo posto al sole</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+
+    <header class="header">
+    <div class="container header__container">
+        <div class="header__logo">
+        <i class="fa-solid fa-water logo"></i>
+            <h1 class="logo-text">AulaBeach.it</h1>
+        </div>
+
+<div class="header__divider">
+    <nav class="header_nav">
+        <ul>
+            <li><a href="#esplora">Esplora</a></li>
+            <li><a href="#prenotazioni">Prenotazioni</a></li>
+            <li><a href="#salvati">Salvati</a></li>
+        </ul>
+</div>
+        </div>
+</header> 
+
+
+<main class="welcome">
+    <section class="welcome__section">
+        <div class="welcome__container">
+            <h2 class="welcome__title">Il Tuo Orizzonte Privato</h2>
+            <span class="welcome__title-highlight">Ti aspetta</span>
+
+            <p class="welcome__subtitle">
+                Scopri le migliori spiagge e prenota il tuo prossimo viaggio!
+            </p>
+        </div>
+
+        <div class="welcome__form">
+            <form action="#" method="get" class="search-form">
+
+                <div class="search-form__group">
+                    <label for="destinazione">Destinazione</label>
+
+                    <div class="search-form__input-wrapper">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input
+                            id="destinazione"
+                            class="search-form__input"
+                            type="text"
+                            placeholder="Dove andare?"
+                        >
+                    </div>
+                </div>
+
+                <div class="search-form__group">
+                    <label for="data">Data</label>
+
+                    <div class="search-form__input-wrapper">
+                        <i class="fa-regular fa-calendar"></i>
+                        <input
+                            id="data"
+                            class="search-form__input"
+                            type="date"
+                        >
+                    </div>
+                </div>
+
+                <div class="search-form__group">
+                    <label for="ospiti">Ospiti</label>
+
+                    <div class="search-form__input-wrapper">
+                        <i class="fa-solid fa-user"></i>
+                        <input
+                            id="ospiti"
+                            class="search-form__input"
+                            type="number"
+                            min="1"
+                            max="10"
+                            placeholder="Ospiti"
+                        >
+                    </div>
+                </div>
+
+                <button class="search-form__button" type="submit">
+                    Cerca
+                </button>
+
+            </form>
+        </div>
+    </section>
+
+
+<section class="common-section">
+    <div class="container">
+        <div class="titlewrapper">
+        <span class="eyebrow">Eccellenza Garantita</span>
+        <h2 class="title">
+            Perché i Viaggiatori Esigenti <br>Scelgono AulaBeach
+        </h2>
+    </div>
+
+    <div class="recenzioni__container">
+
+        <div class="recenzioni__card">
+            <i class="fa-solid fa-bolt"></i>
+            <h3>Prenotazione Rapida</h3>
+            <p>
+                Assicurati il tuo lettino in meno di 60 secondi
+                con il nostro sistema di prenotazione
+                semplificato in un tocco.
+            </p>
+        </div>
+
+        <div class="recenzioni__card">
+            <i class="fa-solid fa-money-bills"></i>
+            <h3>Migliori Prezzi</h3>
+            <p>
+                Collaborazioni dirette con i beach club di lusso
+                ti garantiscono sempre tariffe preferenziali
+                per i membri.
+            </p>
+        </div>
+
+        <div class="recenzioni__card">
+            <i class="fa-solid fa-headset"></i>
+            <h3>Assistenza 24/7</h3>
+            <p>
+                Il nostro team di concierge costiero dedicato
+                è disponibile 24 ore su 24 per ogni richiesta
+                speciale.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="destinazioni section">
+    <div class="container">
+        <div class="sectioon__head__split">
+            <div class="title-wrapper">
+            <h2>Destinazioni Principali</h2>
+            <p>Scopri le fughe costiere più ambite del Mediterraneo, selezionate con cura
+per la loro bellezza e il loro servizio.</p>
+</div>
+    
+        <div class="link-visualizza">
+        <a href="#!" class="link__arrow">Visualizza Tutte le Destinazioni</a>
+        <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+        <div class="prenotazioni__container">
+
+            <article class="prenotazione__card">
+                <img src="img/card3.jpg" alt="Vista al tramonto sulla costa di Positano" class="prenotazione__image">
+
+                <div class="prenotazione__content">
+                    <h3 class="prenotazione__title">Azure Bay Club</h3>
+
+                    <div class="prenotazione__location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Sardegna, Italia</span>
+                    </div>
+
+                    <div class="prenotazione__tags">
+                        <span class="prenotazione__tag">Infinity Pool</span>
+                        <span class="prenotazione__tag">Cucina Gourmet</span>
+                        <span class="prenotazione__tag">Spa</span>
+                    </div>
+
+                    <a href="#" class="btn btn--dark btn--block">
+                        Prenota Questa Esperienza
+                    </a>
+                </div>
+            </article>
+
+            <article class="prenotazione__card">
+                <img src="img/card2.jpg" alt="Borgo colorato sulla scogliera al tramonto" class="prenotazione__image">
+
+                <div class="prenotazione__content">
+                    <h3 class="prenotazione__title">Costa Smeralda Beach</h3>
+
+                    <div class="prenotazione__location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Sardegna, Italia</span>
+                    </div>
+
+                    <div class="prenotazione__tags">
+                        <span class="prenotazione__tag">Cocktail Bar</span>
+                        <span class="prenotazione__tag">Private Beach</span>
+                        <span class="prenotazione__tag">Wi-Fi</span>
+                    </div>
+
+                    <a href="#" class="btn btn--dark btn--block">
+                        Prenota Questa Esperienza
+                    </a>
+                </div>
+            </article>
+
+            <article class="prenotazione__card">
+                <img src="img/card1.jpg" alt="Baia turchese con barche e case colorate" class="prenotazione__image">
+
+                <div class="prenotazione__content">
+                    <h3 class="prenotazione__title">Amalfi Sunset Club</h3>
+
+                    <div class="prenotazione__location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Costiera Amalfitana, Italia</span>
+                    </div>
+
+                    <div class="prenotazione__tags">
+                        <span class="prenotazione__tag">Vista Mare</span>
+                        <span class="prenotazione__tag">Ristorante</span>
+                        <span class="prenotazione__tag">Relax Area</span>
+                    </div>
+
+                    <a href="#" class="btn btn--dark btn--block">
+                        Prenota Questa Esperienza
+                    </a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer" id="footer">
+    <div class="footer__bg"></div>
+    <div class="container footer__container">
+        <div class="footer__about">
+            <div class="header__logo">
+                <i class="fa-solid fa-water logo"></i>
+                <h4 class="logo-text">AulaBeach.it</h4>
+            </div>
+            <p>Definiamo la prossima generazione dell'ospitalità costiera. Scopri e prenota con facilità le esperienze balneari più esclusive al mondo.</p>
+            <div class="footer__social">
+                <a href="#!" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#!" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#!" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="footer__col">
+            <h5>Esplora</h5>
+            <ul>
+                <li><a href="#esplora">Trova una Spiaggia</a></li>
+                <li><a href="#prenotazioni">Destinazioni Top</a></li>
+                <li><a href="#salvati">Vantaggi Membri</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__col">
+            <h5>Supporto</h5>
+            <ul>
+                <li><a href="#!">Centro Assistenza</a></li>
+                <li><a href="#!">Politica di Cancellazione</a></li>
+                <li><a href="#!">Privacy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <div class="container">
+            <p>&copy; 2026 AulaBeach. Tutti i diritti riservati.</p>
+        </div>
+    </div>
+</footer>
+
+</main>
+</body>
+</html>
