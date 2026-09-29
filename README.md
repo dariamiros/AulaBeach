@@ -1,8 +1,7 @@
 
 # AulaBeach.it 🏖️
 
-AulaBeach.it è un sito multipagina pensato per prenotare il proprio posto in spiaggia in modo semplice e veloce: scegli la spiaggia, controlla la disponibilità e riserva ombrellone e lettini in pochi passaggi.
-
+AulaBeach.it è un sito multipagina pensato per prenotare il proprio posto in spiaggia in modo semplice e veloce. 
 Il progetto è stato realizzato per la challenge di Aulab.
 
 ## Tecnologie
@@ -14,4 +13,4 @@ Il progetto è stato realizzato per la challenge di Aulab.
 
 ## Anteprima
 
-Il sito è pubblicato con GitHub Pages: `https://username.github.io/nome-repo`
+Il sito è pubblicato con GitHub Pages: `https://dariamiros.github.io/AulaBeach/`
